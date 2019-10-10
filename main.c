@@ -11,15 +11,15 @@ int main(int argc, char *argv[]) {
 	
 	if (input > 0)
 	{
-	   printf("|x| = %d\n", input);
+	   printf("positive\n");
     }
-	else
+	else if (input < 0)
 	{
-	   printf("|x| = %d\n", -input);
+	   printf("negative\n");
     }
-    
+    else
+    {
+    	printf("zero\n");
+	}
 	return 0;
 }
-
-
-
